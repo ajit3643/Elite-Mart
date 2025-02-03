@@ -22,7 +22,7 @@ const Navbar = () => {
 
       {/* User */}
       <li>
-        <Link to={"/"}>Kumar Ajit</Link>
+        <Link to={"/user-dashboard"}>Kumar Ajit</Link> {/* User-Dashboard */}
       </li>
 
       {/* Admin */}
@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className="left py-3 lg:py-0">
           <Link to={"/"}>
             <h2 className=" font-bold text-white text-2xl text-center">
-              E-Mart
+              E-Bharat
             </h2>
           </Link>
         </div>
